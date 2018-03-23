@@ -1,0 +1,19 @@
+.background    { background: url('lvlBackground.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;
+                 background-size: contain;
+               background-position:  center;    }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: black;   }
+.floater       {background:  blue;}
+
+.actor  { position: absolute;  }
+.player { background: green; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
